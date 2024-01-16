@@ -1,0 +1,34 @@
+.login-btn {
+    border: none;
+    background-color: #46bd3a;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.login-title  p{
+    color: #5ac550;
+    display: inline;
+}
+
+.signup-btn {
+    border: none;
+    background-color: #fbfdfb;
+    color: black;
+    width:fit-content;
+    font-size: 0.9rem;
+}
+.signup-btn a {
+    color: #46bd3a; 
+}
+.col-6 img{
+    height:90vh;
+    padding-left:50px;
+}
+p{
+    width: 500;
+    size: 20px;
+    line-height: 25.14px;
+    margin-top: 0%;
+}
