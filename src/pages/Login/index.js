@@ -15,16 +15,17 @@ function Login() {
     <form action='' className='col-6 py-4 px-3'>
         <h1 className='login-title py-2'>Log in to Your <p>Grower</p> Dashboard for Cultivation Insights and Farm Mangement</h1>
         
-        <p>Embark on a Fulfilling Farming Advanture and Reap the Reward of Your Harvest</p><br />
+        <p>Embark on a Fulfilling Farming Advanture and Reap the Reward of Your Harvest</p><br/>
 
-        <div className='form-floating mb-4'>
+
+        <div className='form-floating1 mb-4'>
             Email Address <br />
             <input type="email" id="email" className="form-control" placeholder='Enter your Email Address' onChange={(e)=>{setEmail(e.target.value)}}/>
         </div>
 
-        <div className='form-floating mb-4'>
+        <div className='form-floating1 mb-4'>
             Password
-            <input type="password" id="pass" className="form-control" placeholder="Password" onChange={(e)=>{setPassword(e.target.value)}}/>
+            <input type="password" id="pass" className="form-control" placeholder="Enter your Password" onChange={(e)=>{setPassword(e.target.value)}}/>
         </div>
 
         <div className='text-center'>
@@ -32,7 +33,7 @@ function Login() {
         </div>
         
         <div className='text-center mt-3'>
-        <button className='signup-btn py-2 px-2'>Don't have an account? <a href="/register">Sign Up</a></button>
+        <button className='signup-btn py-2 px-2'>Don't have an account? <a href="/signup">Sign Up</a></button>
            
         </div>
 
