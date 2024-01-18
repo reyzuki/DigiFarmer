@@ -5,10 +5,11 @@ import SignUp from './pages/SignUp';
 function App() {
   return (
     <BrowserRouter>
-    <Routes>
-      <Route path="/login" element={<Login />}/>
-      <Route path="/signup" element={<SignUp />}/>
-    </Routes>
+      <Routes>
+        <Route exact path="/" element={<Login />}/>
+        <Route path="/login" element={<Login />}/>
+        <Route path="/signup" element={<SignUp />}/>
+      </Routes>
     </BrowserRouter>
   );
 }

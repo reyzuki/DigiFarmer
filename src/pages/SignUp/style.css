@@ -32,3 +32,10 @@ p{
     line-height: 25.14px;
     margin-top: 0%;
 }
+.form-floating1{
+    display: inline-grid;
+}
+
+.form-floating1 input{
+    width: 263px;
+}
