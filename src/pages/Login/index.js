@@ -28,12 +28,12 @@ function Login() {
             <input type="password" id="pass" className="form-control" placeholder="Enter your Password" onChange={(e)=>{setPassword(e.target.value)}}/>
         </div>
 
-        <div className='text-center'>
-            <button className='login-btn py-2 px-2' onClick={()=>{handleLogin()}}>Login</button>
+        <div className='text-center1'>
+            <button className='login-btn py-2 px-2' onClick={()=>{handleLogin()}}><a href="/dashboard">Login</a></button>
         </div>
         
         <div className='text-center mt-3'>
-        <button className='signup-btn py-2 px-2'>Don't have an account? <a href="/signup">Sign Up</a></button>
+        <button className='signup-btnn py-2 px-2'>Don't have an account? <a href="/signup">Sign Up</a></button>
            
         </div>
 

@@ -12,7 +12,7 @@
     display: inline;
 }
 
-.signup-btn {
+.signup-btnn {
     border: none;
     background-color: #fbfdfb;
     color: black;
@@ -38,4 +38,9 @@ p{
 
 .form-floating1 input{
     width: 263px;
+}
+
+.signup-btnn a{
+    color: #46bd3a;
+    text-decoration: none;
 }

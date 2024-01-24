@@ -56,7 +56,7 @@ function SignUp() {
         </div>
         
         <div className='text-center mt-3'>
-        <button className='signup-btn py-2 px-2'>Already have an account? <a href="/login">Log In</a></button>
+        <button className='signup-btnn py-2 px-2'>Already have an account? <a href="/login">Log In</a></button>
            
         </div>
 

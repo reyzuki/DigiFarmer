@@ -12,7 +12,7 @@
     display: inline;
 }
 
-.signup-btn {
+.signup-btnn {
     border: none;
     background-color: #fbfdfb;
     color: black;
@@ -31,4 +31,14 @@ p{
     size: 20px;
     line-height: 25.14px;
     margin-top: 0%;
+}
+
+.text-center1 button a{
+    color: #fbfdfb;
+    text-decoration: none;
+}
+
+.signup-btnn a{
+    color: #46bd3a;
+    text-decoration: none;
 }
